@@ -1,0 +1,12 @@
+
+A	0.2				0,0,0
+
+C 	0,0,100			0,0,-1		90
+
+L	50,0,100 			1 			255,255,255
+# L	100,100,-100 			1 			255,255,255
+
+sp -500,500,-2000	500	255,255,255		1 0 200 checker_off	"assets/xpm_map/chsimon.xpm" "" skybox_off
+sp -500,-500,-2000	500	255,255,255		1 0 200 checker_off	"assets/xpm_map/swillis.xpm" "" skybox_off
+sp 500,500,-2000	500	255,255,255		1 0 200 checker_off	"assets/xpm_map/nguiard.xpm" "" skybox_off
+sp 500,-500,-2000	500	255,255,255		1 0 200 checker_off	"assets/xpm_map/eamar.xpm" "" skybox_off

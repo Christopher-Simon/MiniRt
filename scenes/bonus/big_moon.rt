@@ -1,0 +1,36 @@
+A					0.4        255,255,255
+
+#light out sphere
+# L  20,0,20 			1 			255,0,0
+# L  0,20,20 			1 			0,255,0
+# L  -20,0,20 			1 			0,0,255
+
+#light in sphere
+# L  -1,0,0 			1 			255,0,0
+# L  -2,2,3.5 			1 			100,100,100
+# L  5,1,18 			1 			255,255,255
+# L  5,1,5 				0.7 			255,255,255
+L  0,1,5 				0.7 			255,255,255
+
+
+
+C  0,1,5  0,-0.5,-1   	90
+
+sp 0,0,0 40 					255,255,0 1 0 10 checker_off "assets/xpm_map/8k_milky.xpm" "" skybox_on
+
+sp 0,-0.5,2 2	 					255,255,0 1 0 10 checker_off "/mnt/nfs/homes/sloquet/Downloads/big_moon.xpm" "/mnt/nfs/homes/sloquet/Downloads/normal_moon.xpm" skybox_off
+
+
+# L  0,2,10 	 1 			255,255,255
+
+
+
+
+
+
+
+
+
+
+
+

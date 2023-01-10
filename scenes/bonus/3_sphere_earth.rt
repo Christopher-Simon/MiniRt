@@ -1,0 +1,14 @@
+A 0.0				0,0,0
+
+C 0,0,100			0,0,-1 	90
+# C 0,0,-100			0,0,1 	90
+
+L 0,0,100 			1 		255,255,255
+L 0,0,-100 			1 		255,255,255
+
+# pl 0,0,100 		0,0,1		255,255,255	0.9 0.6 200 checker_off	"" ""
+
+# sp -60,0,0 50 255,255,255 1 0 200 checker_off "assets/xpm_map/earth_clouds.xpm" "assets/xpm_normalmap/earth.xpm" skybox_off
+sp -60,0,0 50 255,255,255 1 0 200 checker_off "assets/xpm_map/earthmap1k.xpm" "assets/xpm_normalmap/earth.xpm" skybox_off
+sp 0,0,0 50 255,255,255 1 0 200 checker_off "assets/xpm_map/earth_day.xpm" "assets/xpm_normalmap/earth.xpm" skybox_off
+sp 60,0,0 50 255,255,255 1 0 200 checker_off "assets/xpm_map/earth_night.xpm" "assets/xpm_normalmap/earth.xpm" skybox_off

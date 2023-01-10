@@ -1,0 +1,21 @@
+A 0.0				0,0,0
+
+C 0,0,200			0,0,-1 	90
+L 0,0,200 			1 		255,255,255
+
+# C 0,0,-100			0,0,1 	90
+# L 0,0,-200 			1 		255,255,255
+
+# pl -80,0,0 	-1,1,0			255,255,255 1 0 200 checker_off "assets/xpm_map/earth_clouds.xpm" "assets/xpm_normalmap/earth.xpm"
+# pl 0,0,0 	1,0,-1			255,255,255 1 0 200 checker_off "assets/xpm_map/earth_day.xpm" "assets/xpm_normalmap/earth.xpm"
+# pl 80,0,0 	0,-1,1			255,255,255 1 0 200 checker_off "assets/xpm_map/earth_night.xpm" "assets/xpm_normalmap/earth.xpm"
+
+
+
+pl -60,-50,-10000 	0,0,-1		0,255,255	1 0 200 checker_on
+
+pl -100,0,20 	1,0,0		0,255,255 1 1 200 checker_on
+pl 100,0,20 	-1,0,0		25,150,255 1 1 200 checker_on
+
+pl 0,80,50 		0,1,0		100,255,200 1 1 200 checker_on
+pl 0,-80,50 	0,-1,0		100,150,250 1 1 200 checker_on
